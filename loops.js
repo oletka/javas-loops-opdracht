@@ -8,8 +8,16 @@
 // *****
 
 // Tip: je kunt de .repeat() methode gebruiken om een karakter een n aantal keer te herhalen...
-// Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
+// Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens:
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
+let star = "*";
+   for (let i = 0; i <= 5; i++){
+
+       /* console.log(i)*/
+          console.log(star.repeat(i))}
+
+
 
 
 
@@ -24,9 +32,13 @@
 // loop...
 // klaar!
 // ==========================================
+let word = "loop";
+for (let i = 0; i < 4; i++) {
+    if  (i < 4)
+        console.log(word)
+    /*console.log(i)*/ }
 
-
-
+console.log("klaar!")
 
 
 // ==========================================
@@ -46,7 +58,16 @@
 // ==========================================
 
 
+    for (let i = 0; i < 3; i++) {
+    console.log(i)
+}
+    for (let j = 3; j <= 5; j++) {
+    console.log('>'+ (j))
+}
+    for (let h = 7; h < 10; h++) {
+    console.log('>>' +(h))
 
+}
 
 
 // ==========================================
@@ -56,7 +77,7 @@
 // Verwachte uitkomsten:
 // 1
 // 2
-// Fizz
+// 3
 // 4
 // Buzz
 // Fizz
@@ -88,4 +109,14 @@
 // ==========================================
 
 
-
+for (let i = 1; i <= 100; i++)
+     {
+    if ( i % 3 == 0 && i % 5 == 0) {
+        console.log("FizzBuzz");}
+    else if ( i % 3 == 0) {
+        console.log("Fizz");}
+    else if ( i % 5 == 0) {
+        console.log("Buzz")}
+    else {
+        console.log(i);}
+    }
